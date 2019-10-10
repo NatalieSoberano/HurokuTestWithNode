@@ -1,1 +1,19 @@
-body { background-color: black; color: white }
+@import 'vars';
+
+body {background-color: $white;}
+
+.buttonexpanded, .buttonsmallexpandedhollow {
+    background-color: $navy; 
+    color: $white;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover {
+     color: $pink;
+}
+
+h2 {
+    color: $navy;
+    text-align: center;
+}
